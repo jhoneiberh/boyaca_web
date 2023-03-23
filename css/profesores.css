@@ -1,0 +1,72 @@
+main h2
+{
+    font-size: 6rem;
+    text-align: center;
+    padding-left: 3rem;
+    letter-spacing: 0.7rem;
+    text-transform: uppercase;
+    margin-bottom: 10rem;
+}
+
+main > section h4
+{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    padding-left: 3rem;
+}
+main .profes-santo-domingo,
+main .profes-independencia,
+main .profes-boyaca
+{
+    margin-bottom: 10rem;
+}
+
+/* Sede Santo Domingo */
+.profes-santo-domingo > div,
+.profes-independencia > div,
+.profes-boyaca > div
+{
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 0 3rem;
+}
+
+.profes-santo-domingo > div div,
+.profes-independencia > div div,
+.profes-boyaca > div div
+{
+    margin-bottom: 5rem;
+}
+
+.profes-santo-domingo img,
+.profes-independencia img,
+.profes-boyaca img
+{
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profes-santo-domingo > div div p:nth-child(2),
+.profes-independencia > div div p:nth-child(2),
+.profes-boyaca > div div p:nth-child(2)
+{
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.profes-santo-domingo > div div p,
+.profes-independencia> div div p,
+.profes-boyaca > div div p
+{
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}

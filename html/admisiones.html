@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admisiones</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/admisiones.css">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header> 
+        <div class="nombre_logo_ie">
+            <h1><a href="../index.html">Institución Educativa Boyaca</a></h1>
+            <img src="../img/favicon.png" alt="logo colegio">
+        </div>
+        <div class="items-info">
+        </div>
+        <div class="info">
+            <a href="./html/admisiones.html">Admisiones</a>
+            <a href="../html/profesores.html">Profesores</a>
+            <a href="../html/institucion.html">Institución</a>
+            <a href="../html/contacto.html">Contacto</a>
+        </div>
+    </header>
+    <main>
+        <h2>Matriculas Abiertas</h2>
+        <section class="matriculas">
+            <div>
+                <p>Confíe la educación de sus hijos en una de las
+                    mejores instituciones educativas de la ciudad de Cali.
+                    Estamos comprometidos con la formación etica e integral
+                    de la futura generación de la ciudad de Cali, formados en 
+                    valores, principios, con altos conocimientos de las ciencias y 
+                    apreciacion por el arte.
+                </p>
+                <p>Lo invitamos a realizar visitar la institucion,
+                     en la cual puede conocer nuestra oferta educativa,
+                     espacios academicos, deportivos, recreativos, deportivos y
+                     por supuesto podrá aclarar sus inquistudes o preguntas de interes.
+    
+                </p>
+            </div>
+            <img src="../img/matricula.jpg" alt="matriculas abiertas">
+        </section>
+        <h5 class="title-form">Formulario de Pre-Inscripción</h5>
+        <p class="description-form">Por favor, digita tus datos y nosotros nos pondremos
+            en contacto contigo y así continuar con el proceso de inscripción
+        </p>
+        <form action="">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">
+            <input type="email" name="correo" id="correo" placeholder="Correo electronico">
+            <input type="number" name="telefono" id="telefono" placeholder="Telefono">
+            <label for="">Sexo</label>
+            <select name="sexo" id="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+            </select>
+            <label for="">Grado</label>
+            <select name="grado" id="grado">
+                <option value="primero">Primer Grado</option>
+                <option value="segundo">Segundo Grado</option>
+                <option value="tercero">Tercer Grado</option>
+                <option value="cuarto">Cuarto Grado</option>
+                <option value="quinto">Quinto Grado</option>
+                <option value="sexto">Sexto Grado</option>
+                <option value="septimo">Séptimo Grado</option>
+                <option value="octavo">Octavo Grado</option>
+                <option value="noveo">Noveno Grado</option>
+                <option value="decimo">Décimo Grado</option>
+                <option value="once">Undecimo Grado</option>
+            </select>
+            <textarea name="" id="comentario" cols="30" rows="10" placeholder="Comentarios"></textarea>
+        </form>
+        <div class="send">
+            <button>Enviar</button>
+        </div>
+        <h4>Nuestra Ubicación</h4>
+        <iframe src="https://www.google.com/maps/embed?origin=mfe&pb=!1m12!1m8!1m3!1d7965.392899140963!2d-76.519168!3d3.423885!3m2!1i1024!2i768!4f13.1!2m1!1sCra.+33a+%2325,+Cali,+Valle+del+Cauca,+Colombia!6i16!3m1!1ses!5m1!1ses" frameborder="0"></iframe>
+        <section class="info-final">
+            <div>
+                <h5>I.E. Boyaca</h5>
+                <p>Nuestra institución se caracteriza 
+                    por su compromiso con el medioambiente,
+                    contamos con proyectos en concienación 
+                    sobre el cuidado del medioambiente,
+                    tenemeos talleres y cursos de arte, cultura y deporte
+                    buscando que nuestros niños y jovenes puedan
+                    conocer sus destrezas y habilidades.
+                </p>
+            </div>
+            <div>
+                <h5>Conozca más</h5>
+                <p>Biblioteca</p>
+                <p>Tutoriales</p>
+                <p>Rectoría</p>
+                <p>Convocatorias</p>
+                <p>Proyectos</p>
+            </div>
+            <div>
+                <h5>Contáctenos</h5>
+                <p><i class="fa-solid fa-location-dot"></i> Maracaibo, Santiago de Cali, Valle</p>
+                <p>Kr 33A #25-10</p>
+                <p>Email: <span>ie.boyaca@cali.edu.co</span></p>
+                <p>Sede Santo Domingo</p>
+                <p>Sede Independencia</p>
+                <p>Sede Central</p>
+            </div>
+        </section>
+        <script src="../js/admisiones.js"></script>
+    </main>
+    <footer>
+        <p>Copyright &#169 2023 I.E. Boyaca. Todos los derechos reservados</p>
+        <p>Direccion: <span>Kr 33A #25-10</span></p>
+        <p>Website by <span>Jhon Eiber Hurtado</span></p>
+        <p><i class="fa-brands fa-square-whatsapp"></i></p>
+        <p><i class="fa-brands fa-facebook-f"></i></p>
+        <p><i class="fa-brands fa-youtube"></i></p>
+    </footer>
+</body>
+</html>

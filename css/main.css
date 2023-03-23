@@ -1,0 +1,456 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fuentes/Inter-VariableFont_slnt\,wght.ttf');
+}
+html
+{
+    font-size: 62.5%;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+
+h1 a
+{
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+h1 a:hover
+{
+    color: white;
+}
+
+header
+{
+    height: 8rem;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,49,78,1) 0%, rgba(112,111,131,1) 0%, rgba(192,191,200,1) 100%, rgba(255,255,255,1) 100%);
+    color: black;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1rem;
+    gap: 1rem;
+    margin-bottom: 10rem;
+}
+
+header .nombre_logo_ie
+{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0 0.5rem;
+    align-items: center;
+}
+/* Navegacion de pagina */
+header .items-info
+{
+    font-size: 1.4rem;
+}
+
+header .items-info:hover
+{
+    color: white;
+}
+
+/* Paginas de informacion */
+header .info
+{
+    display: flex;
+    gap: 1rem;
+}
+header div img
+{
+    width: 3rem;
+}
+
+header .info a
+{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+header .info a:visited
+{
+    color: initial;
+}
+
+header .info a:hover
+{
+    color: rgb(249 250 251);
+}
+
+/* Main */
+
+/* Bienvenida */
+main .bienvenida
+{
+    width: 80%;
+    padding: 0 3rem;
+    margin-bottom: 10rem;
+}
+main .bienvenida h3
+{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+main .bienvenida p
+{
+    padding: 0.5rem 0;
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+main .bienvenida figcaption
+{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+main .bienvenida img
+{
+    width: 23%;
+    border-radius: 1rem;
+}
+
+/* Rectoría */
+main .title-rectoria
+{
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    margin-bottom: 5rem;
+    padding-left: 3rem;
+    text-transform: uppercase;
+}
+
+main .container-rectoria
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    padding: 0 3rem;
+    gap: 0 3rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 10rem;
+}
+
+main .container-rectoria p
+{
+    margin-bottom: 1.2rem;
+}
+
+
+main .container-rectoria div img
+{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+
+/* More information */
+main .info-final 
+{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 5rem;
+    align-items: start;
+    justify-content: center;
+    padding: 8rem 8rem;
+    background-color: #454546;
+}
+
+main .info-final div:first-child p:nth-child(2)
+{
+    color: #aaaaaa;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+
+main .info-final div p
+{
+    font-size: 1.5rem;
+    color: #aaaaaa;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+
+main .info-final div:first-child h5,
+main .info-final div:nth-child(2) h5,
+main .info-final div:last-child h5
+{
+    font-size: 3rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+/* Proyectos */
+main .container-proyectos
+{
+    margin-bottom: 10rem;
+}
+main .container-proyectos h5
+{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.7rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    padding-left: 3rem;
+}
+
+main .container-proyectos div
+{
+    width: 90%;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #aaaaaa;
+    padding: 5rem 0;
+}
+
+main .container-proyectos .proyecto-cultores
+{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+    border-top: 1px solid #aaaaaa;
+    padding-top: 5rem;
+}
+
+main .container-proyectos p
+{
+    line-height: 3rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+main .container-proyectos .proyecto-cultores img
+{
+    width: 80%;
+}
+
+/* Proyecto Patrimonio y Caleñidad */
+main .container-proyectos .proyecto-pratrimonio-cali
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+}
+
+main .container-proyectos .proyecto-pratrimonio-cali img
+{
+    width: 100%;
+}
+
+.container-proyectos .proyecto-museo-tertulia
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+}
+
+.container-proyectos .proyecto-museo-tertulia img
+{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Proyecto Stop Motion */
+
+.container-proyectos .proyecto-stop-motion
+{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    gap: 0 3rem;
+}
+
+.container-proyectos .proyecto-stop-motion p
+{
+    font-size: 2.5rem;
+    line-height: 4rem;
+    font-weight: 400;
+}
+
+.container-proyectos .proyecto-stop-motion iframe
+{
+    border-radius: 1rem;
+}
+
+/* Proyecto Museo Vango */
+.container-proyectos .proyecto-museo-vango
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+
+}
+
+.container-proyectos .proyecto-museo-vango img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* Convocatorias */
+main .convocatorias
+{
+    margin-bottom: 10rem;
+}
+main .convocatorias div
+{
+    width: 100%; 
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 3rem;
+    justify-items: center;
+}
+
+main .convocatorias h5
+{
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    padding-left: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+
+main .convocatorias iframe
+{
+    width: 100%;
+    height: 40rem;
+}
+
+/* Feria */
+main .feria
+{
+    margin-bottom: 10rem;
+}
+main .feria h5
+{
+    font-size: 3.5rem;
+    letter-spacing: 0.5rem;
+    padding-left: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    font-weight: 600;
+}
+main .feria div
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+    justify-items: center;
+    padding: 0 5rem;
+}
+main .feria img
+{
+    border-radius: 1rem;
+}
+
+main .feria img:first-child
+{
+    width: 35rem;
+    
+}
+
+main .feria img:last-child
+{
+    width: 100%;
+}
+
+/* Sedes */
+
+main .sedes
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2rem;
+    padding: 0 3rem;
+    margin-bottom: 10rem;
+}
+
+main .sedes p
+{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+main .sedes img
+{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Footer */
+footer
+{
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3rem;
+    background-color: #1f2124;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+footer p span
+{
+    font-weight: 600;
+}
+
+
+footer i.fa-square-whatsapp
+{
+    font-size: 3rem;
+    color: #25D366;
+}
+
+footer p i:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+footer i.fa-facebook-f
+{
+    color: #1876f2;
+    background-color: wh;
+    font-size: 3rem;
+}
+
+
+footer i.fa-youtube
+{
+    color: #c00;
+    font-size: 3rem;
+}
+
+
